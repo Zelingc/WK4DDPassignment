@@ -4,36 +4,35 @@ author: ZCao
 date:  9/16/2017
 autosize: true
 
-First Slide
+
+Slide With Outline
 ========================================================
 
 For more details on authoring R presentations please visit <https://support.rstudio.com/hc/en-us/articles/200486468>.
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
+- Overview
+- Shiny App Details 
+- Codes 
 
-https://zcgh1l.shinyapps.io/WK4ddpAPP/
 
-Slide With Code
+Slide With Overview
+========================================================
+Week 4 assignment for Developing Data Product requres to create a Shiny application and deploy it on Rstudio's servers and then use Rstudio Presenter to prepare a reproducible pitch presentation about the Shiny  application. 
+
+This App was completed with Shiny Web App with RStudio. The dataset applied was from mtcars in R.  The App builds predicting models for useer to estimate car weight according to the fuel efficiency in miles per gallon of a car. 
+
+
+Slide With Shiny App Details
 ========================================================
 
+For the Shiny App of this project, please visit https://zcgh1l.shinyapps.io/WK4ddpAPP. Moving the button on the slider, MPG changes results in the changes of car weight accordingly. The relationship between car weight and MPG is negative. The heavier a car has, the lower MPG a car run. 
 
-```r
-summary(cars)
-```
 
-```
-     speed           dist       
- Min.   : 4.0   Min.   :  2.00  
- 1st Qu.:12.0   1st Qu.: 26.00  
- Median :15.0   Median : 36.00  
- Mean   :15.4   Mean   : 42.98  
- 3rd Qu.:19.0   3rd Qu.: 56.00  
- Max.   :25.0   Max.   :120.00  
-```
-
-Slide With Plot
+Slide With Codes
 ========================================================
+R codes creating the Shiny App can be found at https://github.com/Zelingc/WK4DDPassignment/blob/master/server for server.R and https://github.com/Zelingc/WK4DDPassignment/blob/master/ui.R for UI.R.
 
-![plot of chunk unnamed-chunk-2](DDPwk4-figure/unnamed-chunk-2-1.png)
+
+
+
+
