@@ -1,0 +1,33 @@
+DDPwk4
+========================================================
+author: zc
+date: 9/27/2017
+autosize: true
+
+Outline
+========================================================
+
+- Overview
+- Shiny App Details 
+- Codes
+
+Overview
+========================================================
+
+Week 4 assignment for Developing Data Product requres to create a Shiny application and deploy it on Rstudio's servers and then use Rstudio Presenter to prepare a reproducible pitch presentation about the Shiny  application. 
+
+This App was completed with Shiny Web App with RStudio. The dataset applied was from mtcars in R.  The App builds predicting models for useer to estimate car weight according to the fuel efficiency in miles per gallon of a car. 
+
+
+Shiny App Details
+========================================================
+For the Shiny App of this project, please visit https://zcgh1l.shinyapps.io/WK4ddpAPP. 
+
+Moving the button on the slider, MPG changes results in the changes of car weight accordingly. The relationship between car weight and MPG is negative. The heavier a car has, the lower MPG a car run. 
+
+
+Codes
+========================================================
+R codes creating the Shiny App for server.R can be found at  https://github.com/Zelingc/WK4DDPassignment/blob/master/server  and R codes creating the Shiny App for UI.R can be found athttps://github.com/Zelingc/WK4DDPassignment/blob/master/ui.R. 
+
+
